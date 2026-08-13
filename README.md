@@ -18,14 +18,14 @@ Criar uma base limpa para evoluir em etapas:
 - Chip: ESP32-S3
 - Flash: 16 MB
 - PSRAM: 8 MB
-- Porta serial: `/dev/ttyACM0`
+- Porta serial: geralmente `/dev/ttyACM0` no Linux, `/dev/cu.usbmodem*` no macOS
 - Identidade observada na flash antiga: `waveshare-s3-PhotoPainter`
 
 ## Build
 
 ```bash
-cd /home/paulo/esp32-projects/esp32-s3-photopainter-paulo
-. /home/paulo/esp/esp-idf-v5.5.2/export.sh
+cd <diretorio-do-projeto>
+. <caminho-do-esp-idf>/export.sh
 idf.py set-target esp32s3
 idf.py build
 ```
@@ -53,5 +53,5 @@ assets/antena1-logo.png
 Use somente depois de validar que este firmware deve substituir o atual:
 
 ```bash
-idf.py -p /dev/ttyACM0 flash monitor
+idf.py -p <porta-serial> flash monitor
 ```
