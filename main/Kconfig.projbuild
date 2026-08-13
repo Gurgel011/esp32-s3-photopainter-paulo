@@ -1,0 +1,27 @@
+menu "PhotoPainter Paulo App"
+
+config APP_WIFI_SSID
+    string "WiFi SSID"
+    default ""
+    help
+        Nome da rede Wi-Fi usada pelo firmware.
+
+config APP_WIFI_PASSWORD
+    string "WiFi password"
+    default ""
+    help
+        Senha da rede Wi-Fi usada pelo firmware.
+
+config APP_DEVICE_TITLE
+    string "Brand title"
+    default "Antena 1"
+    help
+        Marca principal que sera exibida futuramente na tela.
+
+config APP_DEVICE_MESSAGE
+    string "Device message"
+    default "Antena 1, a radio mais ouvida do Brasil"
+    help
+        Mensagem secundaria que sera exibida futuramente na tela.
+
+endmenu
