@@ -1,4 +1,8 @@
-# ESP32-S3 PhotoPainter Paulo
+# PhotoPainter · ESP32-S3
+
+`ESP32-S3` · `ESP-IDF` · `C` · `Waveshare`
+
+[Objetivo e etapas](#objetivo) · [Build](#build) · [Wi-Fi](#configurar-wi-fi) · [← Todos os projetos](https://github.com/Gurgel011#projetos)
 
 Projeto novo, separado do `xiaozhi-esp32`, para o dispositivo ESP32-S3 PhotoPainter/Waveshare.
 
